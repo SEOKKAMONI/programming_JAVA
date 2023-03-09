@@ -1,11 +1,12 @@
 package ch09;
 
 //상속!
+//메소드 오버라이딩
 public class Car {
     private String model;
     private String color;
     private String company;
-    private int speed;
+    protected int speed;
 
     public Car() {}
     public Car(String model, String color, String company) {

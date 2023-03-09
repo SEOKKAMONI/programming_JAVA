@@ -15,4 +15,9 @@ public class Taxi extends Car{
         System.out.println("미터기를 내리다.");
         stopCar();
     }
+
+    @Override
+    public void showInfo() {
+        System.out.println("택시입니다.");
+    }
 }
