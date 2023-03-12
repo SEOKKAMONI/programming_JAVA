@@ -1,6 +1,6 @@
 package ch07;
 
-public class StudentExam {
+public class PrivateExam {
     public static void main(String[] args) {
         Student kim = new Student("최병준");
         kim.setGrade(2);
