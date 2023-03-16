@@ -7,7 +7,6 @@ public class ConstructorExam {
         Student s3 = new Student("lee", 3);
         Student s4 = new Student();
 
-
         s1.showInfo();
         s2.showInfo();
         s3.showInfo();
