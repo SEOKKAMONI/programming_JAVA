@@ -1,4 +1,4 @@
-package ch13;
+package ch14;
 
 //String클래스의 값은 불변함
 //StringBuffer클래스의 값은 가변함. 동적

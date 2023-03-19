@@ -1,9 +1,10 @@
-package ch14;
+package ch15;
 
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.Reader;
 
+//문자단위 입출력
 public class CharacterStream1 {
     public static void main(String[] args) {
         int i;

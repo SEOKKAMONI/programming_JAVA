@@ -1,4 +1,4 @@
-package ch14;
+package ch15;
 
 //키보드 입력, 한 글자 입력->한 바이트 출력
 public class StreamExam1 {
