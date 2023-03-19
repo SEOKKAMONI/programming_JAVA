@@ -9,6 +9,7 @@ public class StringBufferExam {
         String s1 = "busan";
         System.out.println(s1.hashCode());
         s1 = s1 + " software";
+        System.out.println(s1);
         System.out.println(s1.hashCode());
 
         System.out.println("===============");
@@ -17,6 +18,8 @@ public class StringBufferExam {
         System.out.println(sb1.hashCode());
         StringBuffer sb2 = new StringBuffer(" software");
         sb1.append(sb2);
+        System.out.println("sb1 = " + sb1);
+        System.out.println("sb2 = " + sb2);
         System.out.println(sb1.hashCode());
 
         System.out.println("===============");
